@@ -27,7 +27,7 @@ pipeline {
     post {
         success {
             script {
-                echo 'Build succeeded!'
+                echo 'Build succeeded :) !'
             }
         }
         failure {
